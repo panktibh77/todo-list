@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  min-height: 100vh;
+  background: #091921;
+  background: url('../src//assets/b.jpg')
+}
+
+body:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(#e91e63, #ffc107); */
+  clip-path: circle(22% at 30% 20%);
+}
+
+body:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(#ffffff, #da00ff); */
+  /* background: url('../src/assets/bucketlist.jpg'); */
+  clip-path: circle(20% at 70% 90%);
+}
